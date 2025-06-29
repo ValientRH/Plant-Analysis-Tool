@@ -1,0 +1,10 @@
+require("dotenv").config();
+const express = require("express");
+const multer = require("multer");
+const pdfkit = require("pdfkit");
+const fs = require("fs");
+const fsPromises = fs.promises;
+const path = require("path");
+const {GoogleGenerativeAI}  = require("@google/genai");
+const app = express();
+const port = 3000;
