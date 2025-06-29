@@ -4,5 +4,24 @@
     "express": "^5.1.0",
     "multer": "^2.0.1",
     "pdfkit": "^0.17.1"
-  }
+  },
+  "name": "plant-analysis-tool",
+  "version": "1.0.0",
+  "description": "A smart tool that uses Gemini AI to identify plants, detect diseases, and provide care tips from uploaded images.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValientRH/Plant-Analysis-Tool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValientRH/Plant-Analysis-Tool/issues"
+  },
+  "homepage": "https://github.com/ValientRH/Plant-Analysis-Tool#readme"
 }
