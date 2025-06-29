@@ -8,7 +8,7 @@
   "name": "plant-analysis-tool",
   "version": "1.0.0",
   "description": "A smart tool that uses Gemini AI to identify plants, detect diseases, and provide care tips from uploaded images.",
-  "main": "index.js",
+  "main": "app.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
