@@ -141,9 +141,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>
-        <i class="fas fa-leaf"></i> PlantScan: Advanced Plant Analysis Tool
-      </h1>
+      <h1><i class="fas fa-leaf"></i> Plant Analysis Tool</h1>
       <p class="description">
         Upload an image of a plant to receive a detailed analysis of its
         species, health, and care recommendations.
@@ -210,7 +208,7 @@
         </div>
         <div class="feature">
           <i class="fas fa-history feature-icon"></i>
-          <span>Fast processing and instant results</span>
+          <span>Instant results with PDF report</span>
         </div>
       </div>
     </div>
@@ -317,7 +315,7 @@
           a.download = "Plant_Analysis_Report.pdf";
           document.body.appendChild(a);
           a.click();
-          a.remove();
+          document.body.removeChild(a);
         } else {
           alert("Failed to generate and download the PDF report.");
         }
