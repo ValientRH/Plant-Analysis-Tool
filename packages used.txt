@@ -3,3 +3,4 @@ NPM Packages:
 2. Dotenv (To access environment variables)
 4. Multer (For file upload)
 5. PDFkit (For pdf download)
+6. Gemini for node JS(@google/generative-ai)
