@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <style>
+      /* Your existing CSS styles go here */
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.6;
@@ -270,7 +271,8 @@
         downloadButton.style.display = "none";
 
         try {
-          const response = await fetch("/analyze", {
+          // ADJUSTMENT: Call Vercel API endpoint with /api prefix
+          const response = await fetch("/api/analyze", { 
             method: "POST",
             body: formData,
           });
@@ -297,7 +299,8 @@
       });
 
       downloadButton.addEventListener("click", async () => {
-        const response = await fetch("/download", {
+        // ADJUSTMENT: Call Vercel API endpoint with /api prefix
+        const response = await fetch("/api/download", { 
           method: "POST",
           headers: {
             "Content-Type": "application/json",
