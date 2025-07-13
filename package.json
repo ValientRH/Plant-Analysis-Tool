@@ -5,7 +5,8 @@
     "dotenv": "^17.0.0",
     "express": "^5.1.0",
     "multer": "^2.0.1",
-    "pdfkit": "^0.17.1"
+    "pdfkit": "^0.17.1",
+    "serverless-http": "^3.2.0"
   },
   "name": "plant-analysis-tool",
   "version": "1.0.0",
