@@ -139,3 +139,5 @@ module.exports = app;
 
 // The app.listen() call is NOT needed when deploying to Vercel
 // because Vercel manages the server and port.
+const serverless = require("serverless-http");
+module.exports = serverless(app);
